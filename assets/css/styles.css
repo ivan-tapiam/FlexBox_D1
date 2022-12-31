@@ -34,11 +34,29 @@ i{
     font-size: 1.5em;
 }
 
+.button{
+    display: flex;
+    justify-content: center;
+    padding: 1em;
+}
+
+button{
+    background-color: #A491D2;
+    border: solid 0.5px #A491D2;
+    padding: 1em 6em 1em 6em ;
+}
+
 .col-9{
-    background-color: aqua;
     display: flex;
     flex-direction: column;
     text-align: center;
     justify-content: center;
     align-items: center;
+    border: solid 0.5px lightgray;
+}
+
+.img-titulo{
+    width: 500px;
+    height: 500px;
+    border-radius: 5%;
 }
